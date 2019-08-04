@@ -103,7 +103,7 @@ int main(){
 
 		Ranswers[k]=x;
 		Qanswers[k]=s;
-		//cout<<s<<" "<<x<<"\n";
+		
 	}
 	}
 
