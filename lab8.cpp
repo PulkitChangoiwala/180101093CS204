@@ -103,7 +103,7 @@ int main()
    for(int i =0;i<k;++i)
    {
    	radius[i]= sqrt(points[i][0]*points[i][0]+points[i][1]*points[i][1]);
-   	cout<<radius[i]<<endl;
+   	
    }
    double CircleRadius = findElt(radius,0,k-1,(k+1)/2);
    cout<<CircleRadius<<endl;
