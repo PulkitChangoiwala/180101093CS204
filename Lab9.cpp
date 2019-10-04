@@ -109,7 +109,19 @@ m++;
 
 }
 
-if(m<3) cout<<"No HULL POSSIBLE\n";
+if(m<3)
+{
+    if(m==1) cout<<1<<endl<<p[0].x<<" "<<p[0].y<<endl;
+    else if(m==2)
+    {   cout<<2<<endl;
+        if(p[0].x<=p[1].x)
+         {cout<<p[0].x<<" "<<p[0].y<<endl<<p[1].x<<" "<<p[1].y<<endl;}
+         else cout<<p[1].x<<" "<<p[1].y<<endl<<p[0].x<<" "<<p[0].y<<endl;
+    }
+
+    
+    
+}
 else
 {
 stack<point> s;
